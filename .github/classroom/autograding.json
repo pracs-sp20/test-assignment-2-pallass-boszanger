@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "test01_run",
+      "setup": "",
+      "run": "bash script.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test02_IO",
+      "setup": "",
+      "run": "bash script.sh Jelmer",
+      "input": "",
+      "output": "Hello Jelmer",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
